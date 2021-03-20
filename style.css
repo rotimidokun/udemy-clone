@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: #4d4d4d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#nav1 {
+    display: flex;
+    height: auto;
+    width: 95%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+#nav1 ul li:not(:last-child) {
+    margin: auto 10px;
+}
+
+#nav2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+
+}
+
+hr {
+    border: 1px solid #d9d9d9;
+    border-right-style: none;
+    border-left-style: none;
+    border-top-style: none;
+
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    line-height: 50px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 14.1px;
+}
+
+.search-bar {
+    border: 1px solid grey;
+    border-radius: 50px;
+    width: 400px;
+    height: 45px;
+    padding: 10px 15px;
+    line-height: 1px;
+    background-color: #FBFBF8;
+}
+
+.name-icon {
+    background-color: #F0BD4F;
+    width: 30px;
+    height: 30px;
+    border-radius: 90%;
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    line-height: 31px;
+}
+
+li a:hover {
+    color: #0F7EA9;
+}
+
+.sec1 {
+    background-image: url('./Images/lady.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    display: flex;
+}
+
+h1 {
+    margin-top: 40px;
+    margin-left: 12px;
+}
+
+h3 {
+    margin-top: 15px;
+    margin-left: 12px;
+}
+.card_container {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    position: relative;
+}
+
+.card {
+    width: 245px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 1.5px;
+}
+
+.imgcard {
+    width: 230px;
+    height: 129px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.imgcard:hover {
+    box-shadow: 3px 3px 7px #d1cfcf;
+}
+
+.course-title {
+    margin-bottom: 5px;
+    width: 240px;
+    height: 40px;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+h4 {
+    display: block;
+    font-weight: bold;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-block-start: 0.3em;
+    margin-block-end: 0.5em;
+}
+
+.author p {
+    display: block;
+    margin-block-start: 0.2em;
+    font-weight: 350;
+    font-size: 12px;
+}
+
+.class p {
+    display: block;
+    font-weight: em;
+}
+
+.price h4 {
+    font-size: 14px;
+}
+
+/* .firstcardhide {
+   border: 1px solid black;
+   height: 300px;
+   width: 250px;
+   position: absolute;
+   z-index: 1;
+   left: 15.5em;
+   top: -1em; */
+
+}
+
+#firstcard {
+    cursor: pointer;
+}
+
+
+/* nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+ul {
+    display: flex;
+    
+}
+
+ul li a {
+    text-decoration: none;
+    color: #4d4d4d;
+    font-family: 'segoe UI'
+
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.searchbar{
+    border-radius: 50%;
+    border-width: 2em;
+} */
+
+/* .firstnav li a {
+    text-decoration: none;
+    color:#3C3B37;
+    font-family: 'segoe UI'; */
+    
+
+
+/* .firstnav {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    margin: 0 */
+
+
